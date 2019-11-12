@@ -1,8 +1,9 @@
 import React from 'react';
 import {connect} from "react-redux";
-import {getBooksRequest} from './actions'
+import {getBooksRequest} from './actions';
+
 const App = (props) => {
-    let handleClick = ()=>{
+    const handleClick = ()=>{
         props.getBooksRequest()
     }
     return (
