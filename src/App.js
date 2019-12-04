@@ -7,8 +7,8 @@ const App = (props) => {
         props.getBooksRequest()
     }
     return (
-        <div onClick={handleClick}>
-            ;fdmk
+        <div>
+            Hello there, this is ui for the restraunt app.
         </div>
     );
 }
